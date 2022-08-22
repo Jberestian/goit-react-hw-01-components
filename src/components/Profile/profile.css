@@ -1,0 +1,54 @@
+body {
+    background-color: antiquewhite;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: aqua;
+  width: 507px;
+  margin: auto;
+}
+
+.description {
+  display: inline;
+  text-align: center;
+  
+}
+
+.avatar {
+  border-radius: 50%;
+}
+
+.name {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.tag,
+.location,
+.label {
+  font-size: 16px;
+  color: gray;
+  font-weight: 500;
+  padding-bottom: 10px;
+}
+
+.stats {
+  display: flex;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid gray;
+  padding: 20px 60px;
+}
+
+.quantity {
+  font-size: 18px;
+  font-weight: 700;
+}
